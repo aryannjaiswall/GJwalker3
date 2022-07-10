@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+ 
+}
+.main-section {
+    background-image: linear-gradient(to BOTTOM LEFT, #f8951d, #162149 30% );
+    background-repeat: repeat-x;
+    background-size: cover;
+    padding: 3px;
+    height: 165vh;
+}
+/* Header */
+header {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon {
+    border-radius: 35px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+}
+.icon p{
+    font-family: "Open Sans";
+}
+#icon1 {
+    background-image: linear-gradient(#162149,#f8951d);
+}
+#icon2 {
+    background-color: #f3f0f0;
+}
+.company-logo img {
+    height: 70px;
+}
+
+.icons img {
+    height: 40px;
+}
+
+/* Table */
+
+.tables-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -3px;
+}
+.table1 {
+    width: 430px;
+    height: 200px;
+    border: 1px solid #fff;
+    background-color: #f3f0f0;
+    border-radius: 9px;
+    padding: 20px;
+}
+
+.input1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+.input1 input{
+   width: 250px;
+}
+.input1 label{
+    text-transform: uppercase;
+    color: #162149;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+/* Main table */
+.main-table {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-table-1 {
+    border-radius: 13px;
+    width: 77%;
+    background-color: #f3f0f0;
+    margin-top: 30px;
+    padding: 5px;
+    height: 110vh;
+}
+.main-table-2 {
+    width: 21%;
+    background-color: #f3f0f0;
+    height: 110vh;
+    padding: 5px;
+    margin-top: 30px;
+    border-radius: 13px;
+}
+
+.main-table-1 .options {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+}
+.main-table-1 .options p {
+    font-family: "Open Sans";
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    width: 65px;
+    text-align: center;
+}
+
+.main-table-1 table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.main-table-1 td, th {
+  text-transform: uppercase;
+  color: #162149;
+  border: 1px solid #162149;
+  text-align: center;
+  height: 20px;
+  padding: 8px;
+}
+
+.main-table-1 tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.below-table {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 4px;
+}
+.below-table-input {
+    display: flex;
+    width: 420px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.icons-main-tables-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -5px;
+    margin-bottom: 0px;
+}
+.icon-main-table-2  {
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #fff;
+    padding: 4px;
+    border-radius: 13px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 45px;
+    background: #dddddd;
+}
+#diff {
+    background-image: linear-gradient(#162149,#f8951d) !important;
+    background-color: none;
+}
+.icon-main-table-2 img {
+    height: 35px;
+}
+.icon-main-table-2 p {
+    font-family: "Open Sans";
+    color: #162149;
+    text-transform: uppercase;
+}
+
+
+.table-main-table-2 table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #table-sec td, th {
+    text-transform: uppercase;
+    color: #162149;
+    border: 1px solid #162149;
+    text-align: center;
+    height: 20px;
+    padding: 8px;
+    font-size: 13px;
+  }
+  
+  .table-main-table-2 tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
