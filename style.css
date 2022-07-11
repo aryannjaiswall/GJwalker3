@@ -215,4 +215,139 @@ header {
   .table-main-table-2 tr:nth-child(even) {
     background-color: #dddddd;
   }
-  
+  .company-logo-mobile {
+      display: none;
+  }
+  /* Responsive */
+
+  @media screen and (max-width: 1430px) {
+      .main-table-1 .options {
+          width: 95%;
+      }
+      .main-section {
+          height: 200vh;
+      }
+      .table1 {
+          width: 400px;
+      }
+  }
+  @media screen and (max-width: 1400px) {
+.icon-main-table-2 {
+    /* width: 30px; */
+}
+.icon-main-table-2 img {
+    height: 25px;
+}
+  }
+  @media screen and (max-width: 1380px) {
+.icon-main-table-2 {
+    width: 40px;
+}
+.icon-main-table-2 img {
+    height: 25px;
+}
+.icon-main-table-2 p {
+    font-size: 15px;
+}
+  }
+
+  @media screen and (max-width: 1300px) {
+      .main-table-1, .main-table-2 {
+          height: 138vh;
+      }
+      .table1 {
+        width: 360px;
+        padding: 10px;
+    }
+  }
+  @media screen and (max-width: 1250px) {
+      .main-table-1 {
+          width: 74%;
+      }
+      .main-table-2 {
+        width: 24%;
+      }
+      #table-sec td, th {
+        font-size: 12px;
+    }
+  }
+  @media screen and (max-width: 1150px) {
+    .input1 input {
+        width: 200px;
+    }
+    #table-sec td, th {
+        font-size: 10px;
+    }
+    .icon-main-table-2 p {
+        font-size: 11px;
+    }
+    .table1 {
+        width: 330px;
+        padding: 10px;
+    }    
+  }
+
+  /* 768px */
+  @media screen and (max-width: 1024px) {
+      .main-section {
+          height: 425vh;
+      }
+    .tables-div {
+        flex-direction: column;
+    }
+    .table1 {
+        margin-top: 10px;
+        padding: 13px;
+    }
+    .main-table {
+        flex-direction: column;
+    }
+    .main-table-1 {
+        width: 100%;
+        overflow-x: auto;
+    } 
+    .main-table-2 {
+        width: 30%;
+    } 
+  }
+
+  @media screen and (max-width: 600px) {
+    .main-table-1 .options p {
+        width: 39px;
+        font-size: 10px;
+    }
+    .main-table-2 {
+        width: 75%;
+    } 
+    .company-logo img{
+        display: none;
+    }
+    .company-logo-mobile {
+        display: block;
+    }
+    .company-logo-mobile img {
+        height: 50px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .main-table-1 .options p {
+        width: 28px;
+        font-size: 7px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+   .table1 {
+    width: 315px;
+    padding: 5px;
+    height: 220px;
+   }
+   .main-table-1 .options p {
+    width: 32px;
+    font-size: 7px;
+    padding: 4px;
+    margin: 2px;
+}
+   .main-table-1 .options  {   
+    margin: 5px;
+}
+  }
